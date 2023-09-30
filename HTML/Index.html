@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    
+    <script type="module" src="../JS/main.js"></script>
+    
+    <title>Main Page</title>
+  </head>
+    <body style="height: 100vh; width: 100vw; overflow: hidden;">
+      <div class="icons">
+        <img src="../IMG/Icons/file.png">
+        <img src="../IMG/Icons/javascript.png">
+        <img src="../IMG/Icons/folder.png">
+      </div>
+      <div class="container">
+        <div>
+          <span style="color:#FFF;font-size:50px">Modulos</span><span style="font-size: 30px;"> em </span>
+          <span style="font-size: 50px; color:#f7df1d">JavaScript</span>
+        </div>
+        <p style="color:#FFF; width: 25%; font-size: 22px; line-height: 30px">
+          Módulos são uma forma de <span class="textDestak">organizar</span> o código JavaScript
+          em <span class="textDestak">arquivos separados (<span style="color:#FFF">02</span>).</span> Isto pode ser útil para
+          tornar o código mais fácil de ler e manter.
+        </p>
+        
+        <div style="display: flex; gap: 4px; flex-wrap: wrap; width: 800px;">
+            <div style="flex-grow: 1" class="codeEditor">
+              <div style="padding: 15px; display: flex; align-items: center; justify-content: space-between;">
+                <div style="display: flex; gap:8px;">
+                  <div class="circle red"></div>
+                  <div class="circle yellow"></div>
+                  <div class="circle green"></div>
+                </div>
+                  <h1 style="color:#f7df1d">add.js</h1>
+              </div>
+              <div class="flexGrowDiv_1" style="flex-grow: 1"></div>
+            </div>
+            <div style="flex-grow: 1" class="codeEditor">
+              <div style="padding: 15px; display: flex; align-items: center; justify-content: space-between;">
+                  <div style="display: flex; gap:8px;">
+                    <div class="circle red"></div>
+                    <div class="circle yellow"></div>
+                    <div class="circle green"></div>
+                  </div>
+                    <h1 style="color:#f7df1d">main.js</h1>
+                </div>
+              <div class="flexGrowDiv_2" style="flex-grow: 1"></div>
+            </div>
+            <div style="flex-grow: 1" class="codeEditor">
+              <div style="padding: 15px; display: flex; align-items: center; justify-content: space-between;">
+                  <div style="display: flex; gap:8px;">
+                    <div class="circle red"></div>
+                    <div class="circle yellow"></div>
+                    <div class="circle green"></div>
+                  </div>
+                    <h1 style="color:#fff">index.html</h1>
+                </div>
+              <div class="flexGrowDiv_3" style="flex-grow: 1"></div>
+            </div>
+        </div>
+        <p style="color:#FFF; width: 30%; font-size: 20px;">
+          O arquivo <span style="color:#FFF; font-weight:900;">add.js</span> exporta a função add,
+          que pode então ser importado para o arquivo <span style="color:#FFF;font-weight:900;">main.js</span>.
+          Isso nos permite manter nosso código organizado
+          e mais fácil de ler. Lembre-se que para usar o recurso de modulos
+          é preciso definir o atributo <span style="color:#FFF;font-weight:900;">type</span> do elemento <span style="color:#FFF;font-weight:900;">script</span> com o valor <span style="color:#73B264;font-weight:900;">module</span>
+          no arquivo <span style="color:#FFF;font-weight: 900;">HTML5.</span>
+        </p>
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 50%;">
+          <h1>codewith<span style="color:#FFF;font-weight: 900;">ghost</span></h1>
+          <div style="display: flex; gap: 10px;">
+            <img  src="../IMG/Icons/instagram.png" alt="">
+            <img  src="../IMG/Icons/youtube.png" alt="">
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
